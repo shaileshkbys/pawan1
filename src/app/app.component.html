@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<ngx-typed-js
+  [loop]="true"
+  [backSpeed]="10"
+  [smartBackspace]="true"
+  [showCursor]="true"
+  [cursorChar]="'_'"
+  [cursorColor]="'#7B8788'"
+  [strings]="[
+    'हर जगह से निराश हो चुके हो, या सबको आजमा चुके हो! सिर्फ एक बार हमे आजमाये जिस से आपकी जिंदगी बदल जायेगी.'
+  ]"
+  [typeSpeed]="50"
+  class="d-flex flex-row justify-content-center my-2 p-1 container-fluid"
+  style="width: 100%"
+>
+  <h3 class="typing my-3 mx-auto theme-green-color text-center"></h3>
+</ngx-typed-js>
+<app-about></app-about>
+<app-banner></app-banner>
+<app-cards></app-cards>
+<app-review></app-review>
+<app-endlist></app-endlist>
+<app-footer></app-footer>
+<div class="fab">
+  <button class="fab-btn depth" (click)="whatsapp()">
+    <fa-icon [icon]="faWhatsapp" class="my-auto fa-2x text-light"></fa-icon>
+  </button>
+</div>

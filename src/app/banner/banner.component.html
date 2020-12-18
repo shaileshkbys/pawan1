@@ -1,0 +1,19 @@
+<div class="container-fluid py-3">
+  <div class="h1 text-center theme-green-color">
+    {{ name }} Provide Best Astrology Services For Your Help
+  </div>
+  <div class="row row-12 py-3 justify-content-center align-items-center text-center px-3 m-0" style="width: 100%">
+    <div
+      class="col col-12 col-sm-4 col-md-3 justify-content-center align-items-center text-center"
+      *ngFor="let item of banner_data; let i = index"
+    >
+      <div>
+        <img [src]="item.img" [alt]="item.title" class="img-fluid avatar mb-3 depth" />
+      </div>
+      <div class="h3 text-bold">{{ item.title }}</div>
+    </div>
+  </div>
+</div>
+<div class="banner">
+    <img src="assets/images/banner2.jpg" alt="love problem astrologer" class="img-fluid depth">
+</div>

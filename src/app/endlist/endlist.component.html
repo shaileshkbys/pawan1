@@ -1,0 +1,22 @@
+<div class="container-fluid my-3">
+  <div
+    class="row row-12 justify-content-center align-items center m-0 p-0"
+    style="width: 100%"
+  >
+    <div
+      class="col col-12 col-md-3 m-0 p-0"
+      *ngFor="let obj of lists; let i = index"
+    >
+      <ul class="p-0 m-0 card rounded m-2" style="border-width: 0px;">
+        <li
+          *ngFor="let item of obj; let j = index;"
+          class="row theme-green-bg text-light m-0 text-center justify-content-center align-items-center"
+          style="width: 100%"
+        >
+          {{ item }}
+          <hr class="m-0 p-0 theme-green-color" *ngIf="j !== (obj.length - 1)" style="width: 100%;">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

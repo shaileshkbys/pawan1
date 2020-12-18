@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+.theme-green-bg {
+    background-color: #115740;
+}
+
+.theme-green-color {
+    color: #115740;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #97ffb8 !important;
+}
+
+.depth {
+    box-shadow: 0 16px 24px 2px rgba(2,2,2,.15), 0 6px 30px 5px rgba(0,0,0,.15), 0 8px 10px -5px rgba(0,0,0,.15) !important;
+}
+
+.text-underline {
+    text-decoration: underline;
+}

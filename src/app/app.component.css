@@ -1,0 +1,19 @@
+.fab {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    z-index: 999 !important;
+}
+
+.fab-btn {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 55px !important;
+    background-color: #25d366;
+    outline: none;
+    z-index: 999 !important;
+}

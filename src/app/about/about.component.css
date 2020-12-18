@@ -1,0 +1,14 @@
+.mybg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(17, 87, 64, 1) 35%,
+    rgba(17, 87, 64, 1) 100%
+  );
+}
+
+.avatar {
+    border-radius: 300px;
+    border: 2px solid rgba(120, 120, 120, .75);
+}
